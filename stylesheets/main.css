@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: rgb(51, 51, 51);
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(172, 0, 15);
+  height: 65px;
+  width: 100%;
+  color: white;
+}
+
+div#websiteName {
+  float: left;
+  text-align: center;
+  padding-top: 16px;
+  padding-left: 14px;
+  font-size: 25px;
+}
+
+div#login {
+  float: right;
+  text-align: center;
+  padding-top: 25px;
+  padding-right: 20px;
+  text-decoration: underline;
+  font-size: 0.8em;
+}
+
+div.topnav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div.topnav li {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 16px 20px 16px 0px;
+  text-decoration: underline;
+  color: white;
+  font-size: 0.9em;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  float: left;
+  height: auto;
+  width: 100%;
+}
+
+.column.main {
+  overflow: hidden;
+  height: auto;
+  width: 75%;
+}
+
+.column.main h2 {
+  margin-left: 30px;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.column.main p {
+  text-align: justify;
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.column.main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 20px 10px;
+}
+
+.column.side {
+  font-size: 18px;
+  font-weight: bold;
+  width: 25%;
+  height: auto;
+  padding-top: 28px;
+  text-indent: 30px;
+}
+
+.column.side img {
+  overflow: hidden;
+  max-width: 100%;
+  display: block;
+  padding-right: 15px;
+  padding-left: 30px;
+}
+
+.footer {
+  color: white;
+  padding: 10px 20px;
+}
